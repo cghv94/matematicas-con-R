@@ -2,11 +2,9 @@
 
 # Facultad de Economía
 
-# Matemáticas I 2020-1
+# Matemáticas I 2021-1
 
-# Profesor: Arturo Mérida Monroy
-
-# Adjunto: Cesar Hernández
+# Profesor: Cesar Hernández
 
 
 # PÁCTICA 1: Introducción a R
