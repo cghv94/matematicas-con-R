@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
-# Facultad de Economía
-# Matemáticas I 2020-1
-# Profesor: Arturo Mérida Monroy
-# Adjunto: Cesar Hernández
-# PRÁCTICA 5: OPERACIONES CON FUNCIONES EN R
+# UNIVERSIDAD NACIONAL AUTÃ“NOMA DE MÃ‰XICO
+# Facultad de EconomÃ­a
+# MatemÃ¡ticas I 2020-1
+# Profesor: Arturo MÃ©rida Monroy
+# Adjunto: Cesar HernÃ¡ndez
+# PRÃCTICA 5: OPERACIONES CON FUNCIONES EN R
 
 # Borrar objetos y variables
 rm(list=ls())
@@ -38,7 +38,7 @@ fmenosg
 
 plot(x,fmenosg, type="o")
 
-# Multiplicación
+# MultiplicaciÃ³n
 
 fporg<-fx*gx
 
@@ -46,7 +46,7 @@ fporg
 
 plot(x,fporg, type="o")
 
-# División
+# DivisiÃ³n
 
 fentreg<-fx/gx
 
