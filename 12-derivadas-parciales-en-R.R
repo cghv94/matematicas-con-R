@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUT覰OMA DE M蒟ICO
-# Facultad de Econom韆
-# Matem醫icas I 2020-1
-# Profesor: Arturo M閞ida Monroy
-# Adjunto: Cesar Hern醤dez
-# PR罜TICA : Derivadas parciales en R
+# UNIVERSIDAD NACIONAL AUT脫NOMA DE M脡XICO
+# Facultad de Econom铆a
+# Matem谩ticas I 2020-1
+# Profesor: Arturo M茅rida Monroy
+# Adjunto: Cesar Hern谩ndez
+# PR脕CTICA : Derivadas parciales en R
 
 library(Deriv)
 library(ggplot2)
@@ -16,7 +16,7 @@ library(grDevices)
 f <- function(x, y) x * y
 Deriv(f)
 
-# Obteniendo derivadas parciales de funciones trigonom閠ricas
+# Obteniendo derivadas parciales de funciones trigonom茅tricas
 
 g <- function(x, y) sin(x) * cos(y)
 Deriv(g)
@@ -41,26 +41,26 @@ Deriv(j,"x")
 k <- function(x, y) sin(x) * cos(y)
 Deriv(k,"y")
 
-# Sustituyendo valores para "x", "y" en la funci髇 derivada
+# Sustituyendo valores para "x", "y" en la funci贸n derivada
 
 l <- function(x, y) x * y
 lprima <- Deriv(l)
 lprima(3,4)
 
-# Sustituyendo valores para "x", "y" en la funci髇 derivada
+# Sustituyendo valores para "x", "y" en la funci贸n derivada
 
 m <- function(x, y) sin(x) * cos(y)
 mprima <- Deriv(m)
 mprima(3,4)
 
-# Graficando una funci髇 en 3D
+# Graficando una funci贸n en 3D
 
 n <- function(x, y) x * y
 x <- seq(1,3,0.1)
 y <- seq(1,3,0.1)
 z <- n(x,y)
 
-# Gr醘icas de densidad
+# Gr谩ficas de densidad
 
 df <- data.frame(x,y,z)
 
@@ -78,7 +78,7 @@ ggplot(df, aes(x = x, y = y) ) +
   stat_density_2d(aes(fill = ..density..), geom = "raster", contour = FALSE) +
   scale_fill_distiller(palette= "Spectral", direction=1)
 
-# Estimaci髇 bidimensional de la densidad del n鷆leo
+# Estimaci贸n bidimensional de la densidad del n煤cleo
 #library(MASS)
 #den3d <- kde2d(x, y)
 #image(den3d)
