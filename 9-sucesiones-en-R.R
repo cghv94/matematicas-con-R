@@ -1,22 +1,22 @@
-# UNIVERSIDAD NACIONAL AUT覰OMA DE M蒟ICO
-# Facultad de Econom韆
-# Matem醫icas I 2020-1
-# Profesor: Arturo M閞ida Monroy
-# Adjunto: Cesar Hern醤dez
-# PR罜TICA 9: SUCESIONES EN R
+# UNIVERSIDAD NACIONAL AUT脫NOMA DE M脡XICO
+# Facultad de Econom铆a
+# Matem谩ticas I 2020-1
+# Profesor: Arturo M茅rida Monroy
+# Adjunto: Cesar Hern谩ndez
+# PR脕CTICA 9: SUCESIONES EN R
 
 
-# Creando una secuencia y conociendo la funci髇 seq
+# Creando una secuencia y conociendo la funci贸n seq
 
 seq(from = 0, to = 10, by =.1)
 seq(from = 0, to = 10, length.out = 50)
 
-# Tambi閚 se puede
+# Tambi茅n se puede
 
 seq(0, 10, by =.1)
 seq(0, 10, .1)
 
-# Para utilizar la funci髇 length.out, esta se debe escribir
+# Para utilizar la funci贸n length.out, esta se debe escribir
 
 seq(0, 10, length.out = 50)
 
@@ -25,7 +25,7 @@ seq(0, 10, length.out = 50)
 seq(10, 0, -1)
 seq(10, 0, length.out = 50)
 
-# Tambi閚 podemos hacer secuencias negativas
+# Tambi茅n podemos hacer secuencias negativas
 seq(-10, 0, 2)
 seq(-10, 0, length.out = 10)
 
@@ -33,7 +33,7 @@ seq(-10, 0, length.out = 10)
 seq(0, -10, -2)
 seq(0, -10, length.out = 10)
 
-# Podemos usar el paradigma orientado a objetos y la funci髇 seq
+# Podemos usar el paradigma orientado a objetos y la funci贸n seq
 
 a<-5
 b<-10
@@ -42,19 +42,19 @@ c<-seq(a,b)
 c
 seq(0, pi, (1/pi))
 
-# Para una sucesi髇 geom閠rica n^2
+# Para una sucesi贸n geom茅trica n^2
 
 2^seq(0, 10, 1)
 2^seq(0, 10, 2)
 
-# Para una sucesi髇 geom閠rica n^3
+# Para una sucesi贸n geom茅trica n^3
 
 3^seq(0, 10, 1)
 3^seq(0, 10, 2)
 3^seq(10, 0, -2)
 3^seq(10, 0, length.out = 5)
 
-# Tambi閚 podemos operar el signo de nuestras secuencias
+# Tambi茅n podemos operar el signo de nuestras secuencias
 
 -(3^seq(0, 10, 2))
 -(3^seq(10, 0, -2))
@@ -86,7 +86,7 @@ as.POSIXlt(Sys.time(), "GMT")
 as.POSIXlt(Sys.time(), "America/Mexico_City")
 as.POSIXlt(Sys.time(), "America/New_York")
 
-# Generarndo n鷐eros con la funci髇 sample
+# Generarndo n煤meros con la funci贸n sample
 
 x<-1:10
 sample(x)
@@ -99,15 +99,15 @@ p<-c(0.01,0.01,0.01,0.01,0.01,0.1,0.1,0.1,0.1,0.55)
 sum(p)
 sample(x, 5, replace = T, prob = p)
 
-# Tambi閚 se puede escribir como sigue
+# Tambi茅n se puede escribir como sigue
 
 sample(1:10, 5, T, p)
 
-# Usando la funci髇 rep
+# Usando la funci贸n rep
 
 rep(1, each = 2)
 
-# Tambi閚 se puede
+# Tambi茅n se puede
 
 rep(1, 5)
 
@@ -127,6 +127,6 @@ rep(1:4, each = 2, len = 10)   # 8 integers plus two recycled 1's.
 
 rep(1:4, each = 2, times = 3)  # length 24, 3 complete replications
 
-# Para ver la informaci髇 sobre la funci髇 rep y los ejemplos anteriores
+# Para ver la informaci贸n sobre la funci贸n rep y los ejemplos anteriores
 
 ?rep
