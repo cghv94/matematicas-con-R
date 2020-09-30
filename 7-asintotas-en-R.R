@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
-# Facultad de EconomÌa
-# Matem·ticas I 2020-1
-# Profesor: Arturo MÈrida Monroy
-# Adjunto: Cesar Hern·ndez
-# PR¡CTICA 7: ASÕNTOTAS EN R
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
+# Facultad de Econom√≠a
+# Matem√°ticas I 2020-1
+# Profesor: Arturo M√©rida Monroy
+# Adjunto: Cesar Hern√°ndez
+# PR√ÅCTICA 7: AS√çNTOTAS EN R
 
 library("dplyr")
 library("ggplot2")
