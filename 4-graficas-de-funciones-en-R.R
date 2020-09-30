@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
-# Facultad de EconomÌa
-# Matem·ticas I 2020-1
-# Profesor: Arturo MÈrida Monroy
-# Adjunto: Cesar Hern·ndez
-# PR¡CTICA 4: GR¡FICAS DE FUNCIONES EN R
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
+# Facultad de Econom√≠a
+# Matem√°ticas I 2020-1
+# Profesor: Arturo M√©rida Monroy
+# Adjunto: Cesar Hern√°ndez
+# PR√ÅCTICA 4: GR√ÅFICAS DE FUNCIONES EN R
 
 # Borrar objetos y variables
 rm(list=ls())
@@ -11,24 +11,24 @@ rm(list=ls())
 
 # USANDO LA AYUDA DE R
 
-# Ejemplo: para saber cu·les son las palabras reservadas
+# Ejemplo: para saber cu√°les son las palabras reservadas
 
-# Si no se conoce la funciÛn
+# Si no se conoce la funci√≥n
 
 help.search( "reserved") 
 
-# Si se conoce la funciÛn y el paquete est· activo
+# Si se conoce la funci√≥n y el paquete est√° activo
 
 ?reserved
 
-# TambiÈn se puede usar
+# Tambi√©n se puede usar
 
 help(reserved)
 
 
-# INSTLACI”N DE PAQUETES (se requiere conexiÛn a internet)
+# INSTLACI√ìN DE PAQUETES (se requiere conexi√≥n a internet)
 
-# Si el paquete no ha sido instalado, la instalaciÛn se puede hacer como sigue:
+# Si el paquete no ha sido instalado, la instalaci√≥n se puede hacer como sigue:
 
 # install.packages("nombre")
 
@@ -56,56 +56,56 @@ x<-(-5:5)
 # Graficamos "x"
 plot(x)
 
-# FunciÛn constante
+# Funci√≥n constante
 fx<-rep(3, 11)
 fdex<-data.frame(x,fx)
 fdex
 plot(x,fx)
 
-# FunciÛn lineal
+# Funci√≥n lineal
 gx<-3*x
 gdex<-data.frame(x,gx)
 gdex
 plot(x,gx, type="l")
 
-# FunciÛn idetidad
+# Funci√≥n idetidad
 hx<-x
 hdex<-data.frame(x,hx)
 hdex
 plot(x,hx, type="o")
 
-# FunciÛn cuadr·tica
+# Funci√≥n cuadr√°tica
 ix<-x^2
 idex<-data.frame(x,ix)
 idex
 plot(x,ix, col="61",type="o")
 
-# FunciÛn c˙bica
+# Funci√≥n c√∫bica
 jx<-x^3
 jdex<-data.frame(x,jx)
 jdex
-plot(x,jx, main="FunciÛn c˙bica", xlab="Eje x", ylab="Eje y", col="green", 
+plot(x,jx, main="Funci√≥n c√∫bica", xlab="Eje x", ylab="Eje y", col="green", 
      type="o")
 
-# FunciÛn racional
+# Funci√≥n racional
 kx<-1/x
 kdex<-data.frame(x,kx)
 kdex
-plot(x,kx, main="FunciÛn racional", sub="Fuente: elaboraciÛn propia", 
+plot(x,kx, main="Funci√≥n racional", sub="Fuente: elaboraci√≥n propia", 
      xlab="Eje x", ylab="Eje y", col="64", type="o")
 
-# FunciÛn logarÌtmica
+# Funci√≥n logar√≠tmica
 lx<-log(x)
 ldex<-data.frame(x,lx)
 ldex
-plot(x,lx, main="FunciÛn logarÌtmica", sub="Fuente: elaboraciÛn propia", 
+plot(x,lx, main="Funci√≥n logar√≠tmica", sub="Fuente: elaboraci√≥n propia", 
      xlab="Eje x", ylab="Eje y", col="50", type="o")
 
-# FunciÛn exponencial
+# Funci√≥n exponencial
 mx<-2^x
 mdex<-data.frame(x,mx)
 mdex
-plot(x,mx, main="FunciÛn exponencial", sub="Fuente: elaboraciÛn propia", 
+plot(x,mx, main="Funci√≥n exponencial", sub="Fuente: elaboraci√≥n propia", 
      xlab="Eje x", ylab="Eje y",col="52", type="o")
 
 # Data frame de resultados
@@ -113,7 +113,7 @@ plot(x,mx, main="FunciÛn exponencial", sub="Fuente: elaboraciÛn propia",
 tododex<-data.frame(x,fx,gx,hx,ix,jx,kx,lx,mx)
 tododex
 
-# Ejemplo de gr·fica de dispersiÛn
+# Ejemplo de gr√°fica de dispersi√≥n
 
 grafica<-plot(kx,mx, type="o")
 grafica
