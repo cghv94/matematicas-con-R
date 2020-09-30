@@ -1,15 +1,15 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
-# Facultad de EconomÌa
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
+# Facultad de Econom√≠a
 # Taller III 2020-1
-# Profesor: Arturo MÈrida Monroy
-# Adjunto: Cesar Hern·ndez
-# PR¡CTICA 4: MATRICES EN R
+# Profesor: Arturo M√©rida Monroy
+# Adjunto: Cesar Hern√°ndez
+# PR√ÅCTICA 4: MATRICES EN R
 
 # Borrar objetos y variables
 rm(list=ls())
 
 
-# MEDIDAS DE TENDENCIA CENTRAL Y DE DISPERSI”N EN R
+# MEDIDAS DE TENDENCIA CENTRAL Y DE DISPERSI√ìN EN R
 
 
 # MEDIDAS DE TENDENCIA CENTRAL EN R
@@ -19,17 +19,17 @@ rm(list=ls())
 
 a<-1:10
 
-# Valor mÌnimo de a
+# Valor m√≠nimo de a
 
 mina<-min(a)
 mina
 
-# Valor m·ximo de a
+# Valor m√°ximo de a
 
 maxa<-max(a)
 maxa
 
-# N˙mero de observaciones en a
+# N√∫mero de observaciones en a
 
 observacionesa<-length(a)
 observacionesa
@@ -44,7 +44,7 @@ medianaa
 sumaa<-sum(a)
 sumaa
 
-# Media aritmÈtica (promedio) de a
+# Media aritm√©tica (promedio) de a
 
 mediaa<-sumaa/observacionesa
 mediaa
