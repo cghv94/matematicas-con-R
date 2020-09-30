@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
-# Facultad de EconomÌa
-# Matem·ticas I 2020-1
-# Profesor: Arturo MÈrida Monroy
-# Adjunto: Cesar Hern·ndez
-# PR¡CTICA 8: ACERCAMIENTO INTUITIVO A LIMITES Y CONTINUIDAD EN R
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
+# Facultad de Econom√≠a
+# Matem√°ticas I 2020-1
+# Profesor: Arturo M√©rida Monroy
+# Adjunto: Cesar Hern√°ndez
+# PR√ÅCTICA 8: ACERCAMIENTO INTUITIVO A LIMITES Y CONTINUIDAD EN R
 
 
 library(dplyr)
@@ -12,7 +12,7 @@ library(gganimate)
 library(png)
 
 
-# LÌmite de "fa" cuando "a" tiende a 6
+# L√≠mite de "fa" cuando "a" tiende a 6
 
 a<-seq(0, 10, 0.1)
 fa<-((a^2)+a-6)/(a-2)
@@ -23,13 +23,13 @@ tabladea %>%
   geom_line(aes(x=a, y=fa), color="red") +
   geom_vline(xintercept = 6) +
   scale_color_viridis_d() +
-  ggtitle("LÌmites") +
+  ggtitle("L√≠mites") +
   xlab("Dominio de A") +
   ylab("Contradominio") +
   transition_reveal(a)
 
 
-# LÌmite de "fb" cuando "b" tiende a -6
+# L√≠mite de "fb" cuando "b" tiende a -6
 
 b<-seq(-10, 0, 0.1)
 fb<-((b^2)-b+6)/(b-2)
@@ -40,13 +40,13 @@ tabladeb %>%
   geom_line(aes(x=b, y=fb), color="blue") +
   geom_vline(xintercept = (-6)) +
   scale_color_viridis_d() +
-  ggtitle("LÌmites") +
+  ggtitle("L√≠mites") +
   xlab("Dominio de B") +
   ylab("Contradominio") +
   transition_reveal(b)
 
 
-# LÌmite de "fc" cuando "c" tiende a -4
+# L√≠mite de "fc" cuando "c" tiende a -4
 
 c<-seq(-10, 0, 0.1)
 fc<-((c^2)+(5*c)+4)/((c^2)+(3*c)-4)
@@ -57,13 +57,13 @@ tabladec %>%
   geom_line(aes(x=c, y=fc), color="green") +
   geom_vline(xintercept = (-4)) +
   scale_color_viridis_d() +
-  ggtitle("LÌmites") +
+  ggtitle("L√≠mites") +
   xlab("Dominio de C") +
   ylab("Contradominio") +
   transition_reveal(c)
 
 
-# LÌmite de "fd" cuando "d" tiende a 4
+# L√≠mite de "fd" cuando "d" tiende a 4
 
 d<-seq(0, 10, 0.1)
 fd<-((d^2)-(4*d))/((d^2)-(3*d)-4)
@@ -74,13 +74,13 @@ tabladed %>%
   geom_line(aes(x=d, y=fd), color="purple") +
   geom_vline(xintercept = 4) +
   scale_color_viridis_d() +
-  ggtitle("LÌmites") +
+  ggtitle("L√≠mites") +
   xlab("Dominio de D") +
   ylab("Contradominio") +
   transition_reveal(d)
 
 
-# LÌmite de "fe" cuando "e" tiende a 1
+# L√≠mite de "fe" cuando "e" tiende a 1
 
 e<-seq(-5, 5, 0.1)
 fe<-((e^3)-1)/((e^2)+1)
@@ -91,7 +91,7 @@ tabladee %>%
   geom_line(aes(x=e, y=fe), color="orange") +
   geom_vline(xintercept = 1) +
   scale_color_viridis_d() +
-  ggtitle("LÌmites") +
+  ggtitle("L√≠mites") +
   xlab("Dominio de E") +
   ylab("Contradominio") +
   transition_reveal(e)
@@ -111,7 +111,7 @@ tabladetodo %>%
   geom_line(aes(x=e, y=fe), color="orange") +
   geom_vline(xintercept = 1, color="orange") +
   scale_color_viridis_d() +
-  ggtitle("LÌmites") +
+  ggtitle("L√≠mites") +
   xlab("Eje de x") +
   ylab("Eje de y") +
   transition_reveal(a)
