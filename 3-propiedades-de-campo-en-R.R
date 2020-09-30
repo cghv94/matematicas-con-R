@@ -1,15 +1,15 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
 
-# Facultad de EconomÌa
+# Facultad de Econom√≠a
 
-# Matem·ticas I 2020-1
+# Matem√°ticas I 2020-1
 
-# Profesor: Arturo MÈrida Monroy
+# Profesor: Arturo M√©rida Monroy
 
-# Adjunto: Cesar Hern·ndez
+# Adjunto: Cesar Hern√°ndez
 
 
-# P¡CTICA 3: PROPIEDADES DE CAMPO EN R
+# P√ÅCTICA 3: PROPIEDADES DE CAMPO EN R
 
 
 # Borrar objetos y variables
