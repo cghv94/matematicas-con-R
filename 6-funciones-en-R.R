@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
-# Facultad de EconomÌa
-# Matem·ticas I 2020-1
-# Profesor: Arturo MÈrida Monroy
-# Adjunto: Cesar Hern·ndez
-# PR¡CTICA 6: FUNCIONES EN R
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
+# Facultad de Econom√≠a
+# Matem√°ticas I 2020-1
+# Profesor: Arturo M√©rida Monroy
+# Adjunto: Cesar Hern√°ndez
+# PR√ÅCTICA 6: FUNCIONES EN R
 
 # Borrar objetos y variables
 rm(list=ls())
@@ -11,24 +11,24 @@ rm(list=ls())
 
 # USANDO LA AYUDA DE R
 
-# Ejemplo: para saber cu·les son las palabras reservadas
+# Ejemplo: para saber cu√°les son las palabras reservadas
 
-# Si no se conoce la funciÛn
+# Si no se conoce la funci√≥n
 
 help.search( "reserved") 
 
-# Si se conoce la funciÛn y el paquete est· activo
+# Si se conoce la funci√≥n y el paquete est√° activo
 
 ?reserved
 
-# TambiÈn se puede usar
+# Tambi√©n se puede usar
 
 help(reserved)
 
 
-# INSTLACI”N DE PAQUETES (se requiere conexiÛn a internet)
+# INSTLACI√ìN DE PAQUETES (se requiere conexi√≥n a internet)
 
-# Si el paquete no ha sido instalado, la instalaciÛn se puede hacer como sigue:
+# Si el paquete no ha sido instalado, la instalaci√≥n se puede hacer como sigue:
 
 # install.packages("nombre")
 
