@@ -1,6 +1,6 @@
 # UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
 # Facultad de Economía
-# Matemáticas I 2020-1
+# Matemáticas I 2021-1
 # Profesor: Cesar Hernández
 # PÁCTICA 3: PROPIEDADES DE CAMPO EN R
 
