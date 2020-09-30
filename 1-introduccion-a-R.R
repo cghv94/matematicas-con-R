@@ -1,32 +1,32 @@
-# UNIVERSIDAD NACIONAL AUT覰OMA DE M蒟ICO
+# UNIVERSIDAD NACIONAL AUT脫NOMA DE M脡XICO
 
-# Facultad de Econom韆
+# Facultad de Econom铆a
 
-# Matem醫icas I 2020-1
+# Matem谩ticas I 2020-1
 
-# Profesor: Arturo M閞ida Monroy
+# Profesor: Arturo M茅rida Monroy
 
-# Adjunto: Cesar Hern醤dez
+# Adjunto: Cesar Hern谩ndez
 
 
-# P罜TICA 1: Introducci髇 a R
+# P脕CTICA 1: Introducci贸n a R
 
 
 # Borrar objetos y variables
 rm(list=ls())
 
 
-# OPERACIONES B罶ICAS
+# OPERACIONES B脕SICAS
 
 # Suma
 1+2
 # Resta
 1-2
-# Multiplicaci髇
+# Multiplicaci贸n
 1*2
-# Divisi髇
+# Divisi贸n
 1/2
-# Divisi髇 entera
+# Divisi贸n entera
 10%%3
 # Potencia
 1^2
@@ -84,7 +84,7 @@ a
 # Encontrar el primer elemento del vector "a"
 a[1]
 
-# Encontrar el d閏imo elemento del vector "a"
+# Encontrar el d茅cimo elemento del vector "a"
 a[10]
 
 
@@ -110,10 +110,10 @@ e
 f<-a^2
 f
 
-# Ra韟 cuadrada a^(1/2)
+# Ra铆z cuadrada a^(1/2)
 g<-a^(1/2)
 g
 
-# Tambi閚
+# Tambi茅n
 h<-sqrt(a)
 h
