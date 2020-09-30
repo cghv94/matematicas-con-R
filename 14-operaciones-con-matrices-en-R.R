@@ -1,8 +1,7 @@
 # UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
 # Facultad de Economía
-# Taller III 2020-1
-# Profesor: Arturo Mérida Monroy
-# Adjunto: Cesar Hernández
+# Taller III 2021-1
+# Profesor: Cesar Hernández
 # PRÁCTICA 5: OPERACIONES CON MATRICES EN R
 
 # Borrar objetos y variables
