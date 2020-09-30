@@ -1,14 +1,7 @@
 # UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
-
 # Facultad de Economía
-
 # Matemáticas I 2020-1
-
-# Profesor: Arturo Mérida Monroy
-
-# Adjunto: Cesar Hernández
-
-
+# Profesor: Cesar Hernández
 # PÁCTICA 3: PROPIEDADES DE CAMPO EN R
 
 
