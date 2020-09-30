@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUT”NOMA DE M…XICO
-# Facultad de EconomÌa
+# UNIVERSIDAD NACIONAL AUT√ìNOMA DE M√âXICO
+# Facultad de Econom√≠a
 # Taller III 2020-1
-# Profesor: Arturo MÈrida Monroy
-# Adjunto: Cesar Hern·ndez
-# PR¡CTICA 5: OPERACIONES CON MATRICES EN R
+# Profesor: Arturo M√©rida Monroy
+# Adjunto: Cesar Hern√°ndez
+# PR√ÅCTICA 5: OPERACIONES CON MATRICES EN R
 
 # Borrar objetos y variables
 rm(list=ls())
