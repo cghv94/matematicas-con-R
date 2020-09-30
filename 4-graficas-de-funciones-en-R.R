@@ -1,8 +1,7 @@
 # UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
 # Facultad de Economía
-# Matemáticas I 2020-1
-# Profesor: Arturo Mérida Monroy
-# Adjunto: Cesar Hernández
+# Matemáticas I 2021-1
+# Profesor: Cesar Hernández
 # PRÁCTICA 4: GRÁFICAS DE FUNCIONES EN R
 
 # Borrar objetos y variables
