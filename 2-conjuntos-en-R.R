@@ -1,15 +1,15 @@
-# UNIVERSIDAD NACIONAL AUT覰OMA DE M蒟ICO
+# UNIVERSIDAD NACIONAL AUT脫NOMA DE M脡XICO
 
-# Facultad de Econom韆
+# Facultad de Econom铆a
 
-# Matem醫icas I 2020-1
+# Matem谩ticas I 2020-1
 
-# Profesor: Arturo M閞ida Monroy
+# Profesor: Arturo M茅rida Monroy
 
-# Adjunto: Cesar Hern醤dez
+# Adjunto: Cesar Hern谩ndez
 
 
-# P罜TICA 2: CONJUNTOS EN R
+# P脕CTICA 2: CONJUNTOS EN R
 
 
 # Borrar objetos y variables
@@ -23,11 +23,11 @@ i
 j<-10:25
 j
 
-# Uni髇 de los vectores "i", "j"
+# Uni贸n de los vectores "i", "j"
 k<-union(i,j)
 k
 
-# Intersecci髇 de los vectores "i", "j"
+# Intersecci贸n de los vectores "i", "j"
 l<-intersect(i,j)
 l
 
@@ -50,7 +50,7 @@ o
 # Conjunto universo
 u<-1:20
 
-# Conjunto vac韔
+# Conjunto vac铆o
 v<-c()
 
 # Conjuntos x, y, z
@@ -66,7 +66,7 @@ v
 
 # IDENTIDAD
 
-# La uni髇 de un conjunto cualquiera con el conjunto vac韔 es el mismo conjunto
+# La uni贸n de un conjunto cualquiera con el conjunto vac铆o es el mismo conjunto
 xUv<-union(x,v)
 # xUv=x
 xUv
@@ -74,7 +74,7 @@ x
 Identidad1=setequal(xUv,x)
 Identidad1
 
-# La intersecci髇 de un conjunto cualquiera con el conjunto universo es el mismo conjunto
+# La intersecci贸n de un conjunto cualquiera con el conjunto universo es el mismo conjunto
 xIu<-intersect(x,u)
 # xIu=x
 xIu
@@ -82,27 +82,27 @@ x
 Identidad2<-setequal(xIu,x)
 Identidad2
 
-# DOMINACI覰
+# DOMINACI脫N
 
-# La uni髇 de un conjunto cualquiera con el conjunto universo, es el conjunto universo
+# La uni贸n de un conjunto cualquiera con el conjunto universo, es el conjunto universo
 xUu<-union(x,u)
 # xUu=u
 xUu
 u
-Dominaci髇1<-setequal(xUu,u)
-Dominaci髇1
+Dominaci贸n1<-setequal(xUu,u)
+Dominaci贸n1
 
-# La intersecci髇 de un conjunto cualquiera con el conjunto vac韔, es el conjunto vac韔
+# La intersecci贸n de un conjunto cualquiera con el conjunto vac铆o, es el conjunto vac铆o
 xIv<-intersect(x, v)
 # xIv=v
 xIv
 v
-Dominaci髇2<-setequal(xIv,v)
-Dominaci髇2
+Dominaci贸n2<-setequal(xIv,v)
+Dominaci贸n2
 
 # IDEMPOTENCIA
 
-# La uni髇 de un conjunto cualquiera consigo mismo, es el mismo conjunto
+# La uni贸n de un conjunto cualquiera consigo mismo, es el mismo conjunto
 xUx<-union(x,x)
 # xUx=x
 xUx
@@ -110,7 +110,7 @@ x
 Idempotencia1<-setequal(xUx,x)
 Idempotencia1
 
-# La intersecci髇 de un conjunto cualquiera consigo mismo, es el mismo conjunto
+# La intersecci贸n de un conjunto cualquiera consigo mismo, es el mismo conjunto
 xIx<-intersect(x,x)
 # xIx=x
 xIx
@@ -120,7 +120,7 @@ Idempotencia2
 
 # COMPLEMENTARIEDAD
 
-# La negaci髇 de la negaci髇 de un conjunto cualquiera, es el mismo conjunto
+# La negaci贸n de la negaci贸n de un conjunto cualquiera, es el mismo conjunto
 xc<-setdiff(u,x)
 xcc<-setdiff(u,xc)
 # xC(complemento)=x: xcc=x
