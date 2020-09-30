@@ -1,9 +1,9 @@
-# UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
-# Facultad de Economía
-# Matemáticas I 2020-1
-# Profesor: Arturo Mérida Monroy
-# Adjunto: Cesar Hernández
-# PRÁCTICA : Determinación de máximos y mínimos en R
+# UNIVERSIDAD NACIONAL AUTÃ“NOMA DE MÃ‰XICO
+# Facultad de EconomÃ­a
+# MatemÃ¡ticas I 2020-1
+# Profesor: Arturo MÃ©rida Monroy
+# Adjunto: Cesar HernÃ¡ndez
+# PRÃCTICA : DeterminaciÃ³n de mÃ¡ximos y mÃ­nimos en R
 
 library(Deriv)
 library(ggplot2)
@@ -12,11 +12,11 @@ library(dplyr)
 # Creamos nuestro dominio de x
 x<-seq(-5,5,0.1)
 
-# Creamos nuestra función f
+# Creamos nuestra funciÃ³n f
 f<-function(x) (x^2)+5
 f
 
-# Derivamos nuestra función f
+# Derivamos nuestra funciÃ³n f
 fprima<-Deriv(f)
 fprima
 
@@ -43,12 +43,12 @@ tf%>%ggplot() +
 # Criterio de la primera derivada, igualamos fprima a cero y despejamos "x"
 fprima
 
-# Sutituimos el valor de "x" en f, para encontrar el punto crítico
+# Sutituimos el valor de "x" en f, para encontrar el punto crÃ­tico
 f(0)
 
-# Determinamos si es un máximo o mínimo con el criterio de la segunda derivada
+# Determinamos si es un mÃ¡ximo o mÃ­nimo con el criterio de la segunda derivada
 fbiprima<-Deriv(fprima)
-fbiprima # Si el resultado es mayor a cero, el punto crítico es un mínimo
+fbiprima # Si el resultado es mayor a cero, el punto crÃ­tico es un mÃ­nimo
 
-# Revisamos el resumen estadístico
+# Revisamos el resumen estadÃ­stico
 summary(tf)
